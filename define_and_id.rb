@@ -5,23 +5,29 @@
 # The downcase method is called on the string object "Hello World"
 # No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
 # The return value is "hello world"
-"Hello World".downcase
+puts"Hello World".downcase
 
 # YOU DO the rest:
 
 
-"Hello World".include?("Hello")
+puts"Hello World".include?("Hello")
+# the include? is called on the string object "Hello world"
+#Returns true if the string contains a given substring, in this case "Hello"; false otherwise.
+#the return value is true
+
+puts"Hello World".end_with?("Hello")
+# the end_with is called on the string using Boolean true/false statement
+#Returns true if the string ends with any of the given substrings in this case "Hello" returns false, as World would be true.
 
 
-"Hello World".end_with?("Hello")
+puts"Hello World".end_with?("rld")
+# the end_with is called on this string using Boolean true/false statement
+#Returns true if the string ends with any of the given substrings in this case "rld" is true as the string ends with rld
 
 
-"Hello World".end_with?("rld")
+puts 12.even?
+# Display true if 12 is even, false otherwise
 
 
-12.even?
-
-
-18.next
-
-
+puts 18.next
+#next is defining the next interger of 18 this case 19
